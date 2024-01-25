@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Perpustakaan</title>
+   <style>
+       body{
+           margin: 0;
+           background-color: #dbb593;
+           font-family: 'Roboto', sans-serif;
+       }
+       header{
+           background-color: lightblue;
+           padding: 1px;
+           margin: auto;
+           width: 100%;
+       }
+       .nav{
+           background-color: black;
+           width: 100%;
+           padding: 3px;
+           height: 20px;
+       }
+       .nav a{
+           color: rgb(255, 255, 255);
+           text-decoration: none;
+           margin-left: 10px;
+       }
+       .content{
+           width: 100%;
+           margin-top: 20px;
+       }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        th {
+            background-color: rgb(6, 129, 167);
+            color: white;
+            text-align: center;
+        }
+        td{
+            text-align: center;
+        }
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: auto;
+            background-color: rgb(197, 197, 197);
+        }
+        table img {
+            width: 80px;
+            height: 100px;
+            object-fit: cover;
+        }
+   </style>
+</head>
+<body>
+   <header>
+       <h2><img src="./img/logo.png" alt="" height="55" align="center"> Perpustakaan</h2>
+   </header>
+   <div class="nav">
+       <a href="./page/home.html">Home</a>
+       <a href="./index.html">Buku</a>
+       <a href="./page/kontak.html">Kontak</a>
+   </div>
+   <div class="content">
+       <table>
+           <tr>
+               <th>cover</th>
+               <th>judul</th>
+               <th>penerbit</th>
+           </tr>
+           <tr>
+               <td><img src="./img/buku.jpg" alt="" width="80px"></td>
+               <td><p>Tentang Rasa</p></td>
+               <td><p>Penerbit</p></td>
+           </tr>
+           <tr>
+               <td><img src="./img/novel2.jpeg" alt="" width="80px"></td>
+               <td><p>Azzamine</p></td>
+               <td><p>Penerbit</p></td>
+           </tr>
+       </table>
+   </div>
+</body>
+</html>

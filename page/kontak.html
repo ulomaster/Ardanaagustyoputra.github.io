@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Perpustakaan</title>
+   <style>
+       body{
+           margin: 0;
+           background-color: #dbb593;
+       }
+       header{
+           background-color: lightblue;
+           padding: 1px;
+           margin: auto;
+           width: 100%;
+       }
+       .nav{
+           background-color: black;
+           width: 100%;
+           padding: 3px;
+       }
+       .nav a{
+           color: white;
+           text-decoration: none;
+           margin-left: 10px;
+       }
+       .content{
+           width: 100%;
+           margin-top: 20px;
+           margin-left: 10px;
+       }
+       .form{
+           background-color: white;
+           padding: 20px;
+           width: 80%;
+           margin: auto;
+       }
+       .form input[type="text"], .form textarea{
+           width: 100%;
+           padding: 12px 20px;
+           margin: 8px 0;
+           box-sizing: border-box;
+           border: 2px solid #ccc;
+           border-radius: 4px;
+           resize: vertical;
+       }
+       .form input[type="submit"]{
+           background-color: black;
+           color: white;
+           cursor: pointer;
+           width: 100%;
+           padding: 12px 20px;
+           margin: 8px 0;
+           box-sizing: border-box;
+           border: none;
+           border-radius: 4px;
+       }
+   </style>
+</head>
+<body>
+   <header>
+       <h1><img src="../img/logo.png" alt="" height="55" align="center"> Perpustakaan</h1>
+   </header>
+   <div class="nav">
+       <a href="./home.html">Home</a>
+       <a href="../index.html">Buku</a>
+       <a href="./kontak.html">Kontak</a>
+   </div>
+   <div class="content">
+        <div class="form">
+            <form action="" method="post">
+                <input type="text" name="" id="" placeholder="judul">
+                <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="text"></textarea>
+                <br>
+                <input type="submit" value="Kirim">
+            </form>
+        </div>
+   </div>
+</body>
+</html>
